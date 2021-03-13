@@ -4,15 +4,17 @@ import BoardPage from '../pages/BoardPage';
 import TerminalPage from '../pages/TerminalPage';
 
 
+
 function App() {
   return (
     <div className="App">
+      
       <Switch>
         <Route exact path="/terminal">
-          <TerminalPage></TerminalPage>
+          <TerminalPage />
         </Route>
         <Route exact path="/board">
-          <BoardPage></BoardPage>
+          <BoardPage />
         </Route>
       </Switch>
     </div>

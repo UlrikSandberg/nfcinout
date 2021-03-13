@@ -87,6 +87,7 @@ const TerminalPage = () => {
                                     </Button>
                                 )}
                             </div>
+                            {nfcFailure ? 
                             <Grid container spacing={1}>
                                 <Grid item xs={4}>
                                     <Paper className={classes.paper}>
@@ -150,7 +151,7 @@ const TerminalPage = () => {
                                         </Button>
                                     </Paper>
                                 </Grid>
-                            </Grid>
+                            </Grid> : undefined}
                         </div>
                     </Paper>
                 </Grid>
