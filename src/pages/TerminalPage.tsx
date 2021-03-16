@@ -41,7 +41,7 @@ const TerminalPage = () => {
         if(rand < 0.9) {
             setIsManualCodeError(true)
         } else {
-            history.push("/board")
+            history.push("/welcome")
         }
     }
 
@@ -54,7 +54,7 @@ const TerminalPage = () => {
                 setNfcFailureAttempts(nfcFailureAttempts +1)
             }
         } else {
-            history.push("/board")
+            history.push("/welcome")
         }
     }
 

@@ -30,7 +30,7 @@ const WelcomePage = ( ) => {
               return 0;
               
             }
-            const diff = Math.random() * 1;
+            const diff = Math.random() * 15;
             return Math.min(oldProgress + diff, 100);
           });
         }, 500);
