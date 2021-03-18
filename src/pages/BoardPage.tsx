@@ -50,8 +50,8 @@ const BoardPage = () => {
                             <TableHead>
                                 <TableRow>
                                     <TableCell>Kids name </TableCell>
-                                    <TableCell>Arraviel time </TableCell>
-                                    <TableCell>How is picking up </TableCell>
+                                    <TableCell>Arrival time </TableCell>
+                                    <TableCell>Who is picking up </TableCell>
                                     <TableCell>Status </TableCell>
                                 </TableRow>
                             </TableHead>
